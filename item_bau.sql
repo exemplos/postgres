@@ -1,3 +1,5 @@
+--Executar estas instruções abaixo
+
 
 CREATE TABLE public.item_bau (
     id serial NOT NULL,
@@ -25,3 +27,10 @@ ALTER TABLE ONLY public.item_bau
     ADD CONSTRAINT item_bau_pkey PRIMARY KEY (id);
 
 	
+--Testar os seguintes comandos
+-- max, min, sum, avg, count
+-- group by
+-- having
+-- order by
+
+-- Referências: https://www.postgresql.org/docs/9.4/tutorial-agg.html
