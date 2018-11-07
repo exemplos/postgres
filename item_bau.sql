@@ -34,3 +34,6 @@ ALTER TABLE ONLY public.item_bau
 -- order by
 
 -- Referências: https://www.postgresql.org/docs/9.4/tutorial-agg.html
+
+-- SQL com Sub Select
+select * from item_bau where quantidade = (select max(quantidade) from item_bau)
